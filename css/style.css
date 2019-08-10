@@ -42,7 +42,6 @@ class styles
 
 .zip_bord {
   position: relative;
-
   border-top: 2px solid black;
 }
 
@@ -90,12 +89,12 @@ class styles
   top: 35px;
   left: 0;
   right: 0;
-
   border-bottom: 2px solid black;
 }
 
 .radio::after{
   content: "Other topics you would like to know about";
+  color: #757373;
 }
 
 .buttons::after {
@@ -107,10 +106,16 @@ class styles
   margin-top: 10px;
 }
 
-.checkboxes {
+.newsletter {
   background-color: #e0e0e0;
   padding: 10px;
   border-radius: 3px;
+}
+
+.box input,
+.box label {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #zip {

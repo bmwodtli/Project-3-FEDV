@@ -117,23 +117,43 @@
 
      <fieldset class="news">
        <legend class="news">Newsletter</legend>
-       <div class="checkboxes">
+       <div class="newsletter">
            <p>Select the newsletters you would like to recieve</p>
-           <input type="checkbox" value="HTML News" checked>HTML News<br>
-           <input type="checkbox" value="CSS News">CSS News<br>
-           <input type="checkbox" value="Javascript News">Javascript News<br>
+           <div class="checkboxes">
+             <div class="box">
+               <input type="checkbox" id="html" value="HTML News" checked>
+               <label for="html">HTML News</label>
+             </div>
+
+             <div class="box">
+               <input type="checkbox" id="css" value="CSS News">
+               <label for="css">CSS News</label>
+             </div>
+
+             <div class="box">
+               <input type="checkbox" id="js" value="Javascript News">
+               <label for="js">JavaScript News</label>
+             </div>
+           </div>
+
            <p>Newsletter format</p>
         <div class="radio">
-           <input type="radio" value="html" checked>HTML<br>
-           <input type="radio" value="plain text">Plain Text<br>
+          <div class="box">
+            <input id="ht_ml" type="radio" value="html" checked>
+            <label for="ht_ml">HTML</label>
+          </div>
+             <div class="box">
+               <input id="text" type="radio" value="plain text">
+               <label for="text">Plain Text</label>
+             </div>
         </div>
 
-         <textarea class="feedback" placeholder="topics you would like to see">
+         <textarea class="feedback" name="feedback">
          </textarea>
 
          <div class="buttons">
-           <input id="submit" type="submit" name="Submit" >
-           <input id="reset" type="reset" name="Reset" >
+           <input id="submit" type="submit" name="Submit">
+           <input id="reset" type="reset" name="Reset">
          </div>
        </div>
      </fieldset>
