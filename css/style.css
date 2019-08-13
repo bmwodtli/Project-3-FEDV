@@ -92,10 +92,6 @@ class styles
   border-bottom: 2px solid black;
 }
 
-.radio::after{
-  content: "Other topics you would like to know about";
-  color: #757373;
-}
 
 .buttons::after {
   content: "Copywright the Code Review";

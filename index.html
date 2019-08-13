@@ -139,17 +139,20 @@
            <p>Newsletter format</p>
         <div class="radio">
           <div class="box">
-            <input id="ht_ml" type="radio" name="html" value="html" checked>
+            <input id="ht_ml" type="radio" name="radio" value="html" checked>
             <label for="ht_ml">HTML</label>
           </div>
              <div class="box">
-               <input id="text" type="radio" name="plaintext" value="plain text">
+               <input id="text" type="radio" name="radio" value="plain text">
                <label for="text">Plain Text</label>
              </div>
         </div>
 
-         <textarea class="feedback" name="feedback">
-         </textarea>
+        <div class="textarea">
+          <label for="feedback">Other topics you would like to know about</label>
+          <textarea class="feedback" id="feedback" name="feedback">
+          </textarea>
+        </div>
 
          <div class="buttons">
            <input id="submit" type="submit" name="Submit">
